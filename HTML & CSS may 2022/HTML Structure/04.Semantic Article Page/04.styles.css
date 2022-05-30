@@ -1,0 +1,58 @@
+/* •	padding: 5px 15px;
+•	font-style: italic
+•	color: #5c6e91
+•	background colors: #f2f4c0, #e4e978, #4c7658;
+•	width: 700px
+•	border: 1px solid #b2ad7d;
+•	margin: 15px 10px; */
+
+body{
+    background-color: #e4e978;
+     padding: 5px 15px;
+    /* margin: 15px 10px;  */
+    /* width: 700px */
+    
+}
+
+article {
+    margin: 15px 10px;
+    /* padding: 5px 15px; */
+    width: 700px;
+    background-color: #f2f4c0;
+    border: 1px solid #b2ad7d;
+}
+
+section{
+    /* margin: 15px 10px; */
+    /* padding: 5px 15px; */
+    width: 700px;
+    background-color: #e4e978;
+    /* border: 1px solid #b2ad7d; */
+}
+
+
+p{
+    /* padding: 5px 15px;
+    margin: 15px 10px; */
+}
+
+.italic-paragraph{
+    font-style: italic;
+    padding: 5px 15px;
+    margin: 15px 10px; 
+    color: #4c7658;
+}
+
+h2{
+    font-style: italic;
+    margin: 15px 10px;
+    color: #5c6e91;
+    padding: 5px 15px;
+}
+
+.different-h1{
+    font-style: italic;
+    color: #5c6e91;
+    margin: 15px 10px;
+    padding: 5px 15px;
+}
