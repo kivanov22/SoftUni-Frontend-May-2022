@@ -1,0 +1,53 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+main {
+    overflow: auto;
+    margin: auto;
+}
+
+h1.title {
+    /* display: inline-block; */
+    
+    margin: 10px 16px;
+    padding: 20px;
+    float: left;
+}
+
+nav {
+    /* float: left; */
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+hr {
+   border: solid 1px;
+   margin: 20px 20px; 
+   /* display: inline-block; */
+}
+
+li a {
+    color: green;
+    text-decoration: none;
+    
+}
+
+h1 {
+    margin: 10px;
+    padding: 15px;
+    
+}
+
+p {
+    margin: 20px 20px;
+    padding: 10px 18px;
+}
+
