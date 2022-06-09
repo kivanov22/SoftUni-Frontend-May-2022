@@ -1,0 +1,18 @@
+@import'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+
+ul {
+    display: inline-block;
+}
+
+
+li:hover {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+a {
+    border-radius: 50%;
+}
+
