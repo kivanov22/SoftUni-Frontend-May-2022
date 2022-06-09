@@ -1,0 +1,66 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+body {
+    display: grid;
+    grid-template-areas: 
+    "viewport"
+    "card";
+    grid-template-columns: 100px auto;
+    gap:10px;
+}
+
+.viewport-upper {
+    grid-area: viewport;
+    vertical-align: top;
+    /* display: inline-block; */
+    position: static;
+  background: rgb(0,57,176);
+background: linear-gradient(90deg, rgba(0,57,176,0.8379552504595589) 50%, rgba(0,249,255,1) 100%);
+}
+
+.viewport-lower {
+    grid-area: viewport;
+    vertical-align: bottom;
+    /* display: inline-block; */
+    position: static;
+  background: rgb(176,0,80);
+  background: linear-gradient(90deg, rgba(176,0,80,0.8379552504595589) 50%, rgba(255,188,0,1) 100%);
+}
+
+.card-upper {
+    grid-area: card;
+    display: block;
+    position: absolute;
+    
+    
+}
+
+.card-lower {
+    grid-area: card;
+    display: block;
+    position: absolute;
+    justify-content: center;
+  align-items: center;
+}
+
+.image-upper {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 500px;
+}
+
+.image-lower {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section i {
+    position: absolute;
+    bottom:2%;
+    left:94%;
+    color:white;
+}
