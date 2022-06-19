@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: 'Helvetica',sans-serif;
+}
+
+footer{ 
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* align-items: flex-end; */
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+
+header {
+    display: flex;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
