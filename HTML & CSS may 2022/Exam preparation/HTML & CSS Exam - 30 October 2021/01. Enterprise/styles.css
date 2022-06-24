@@ -1,0 +1,61 @@
+body {
+    position: relative;;
+    font-family: 'Helvetica',sans-serif;
+}
+
+div {
+    position: absolute;
+    right: 250px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 1000px;
+    height: 300px;
+    padding: 30px 35px;
+}
+
+section {
+    position: relative;
+    right: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.small {
+    font-size: small;
+    font-weight: bold;
+}
+
+p {
+    color:gray;
+    
+}
+
+h1{
+    font-weight: lighter;
+}
+
+button {
+    border: 2px solid;
+    border-radius: 3px;
+    width: 115px;
+    height: 35px;
+}
+
+.contact {
+background-color:mediumslateblue;
+font-weight: bold;
+margin-right: 5px;
+color: white;
+}
+
+.learn {
+    font-weight: bold;
+}
+
+img {
+    position: absolute;
+    height: 350px;
+    right: 50px;
+}
