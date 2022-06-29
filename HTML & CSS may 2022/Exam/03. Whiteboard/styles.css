@@ -1,0 +1,226 @@
+
+:root {
+    --clr--green-button:#00d08e;
+    --clr--white-green:#b2f1dd;
+}
+
+body {
+    font-family: 'Courgette', cursive;
+    font-family: 'PT Sans', sans-serif;
+    /* padding: 1rem; */
+    /* margin: 20px auto; */
+    /* margin-bottom: 3rem; */
+}
+
+
+
+/* 
+Resolution directly opened in browser standard Chrome
+
+*/
+
+
+
+
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    z-index: 1;
+}
+
+/* .header {
+    position: relative;
+} */
+
+.top-btns {
+   position: absolute;
+   z-index: 2;
+}
+
+.hustle-btn{
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    border: none;
+}
+
+.cart-btn{
+    position: absolute;
+    top: 5px;
+    right: 35%;
+    border: none;
+}
+
+.cart-shopping{
+    position: absolute;
+    top: 0%;
+    right: 30%;
+    width: 50px;
+    height: 30px;
+    color: white;
+    z-index: 2;
+
+}
+
+.gg-icon {
+    width: 80px;
+    height: 30px;
+}
+
+.banner-heading{
+    position: absolute;
+    top: 30%;
+    right:10%;
+    color: white;
+    font-size: 4rem;
+}
+
+.banner-paragraph {
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    top: 50%;
+    right: 25%;
+    width: 39%;
+    text-align: center;
+}
+
+.green-btn {
+    position: absolute;
+    top: 76%;
+    right: 44%;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--clr--green-button);
+}
+
+.arrow-btn {
+    position: absolute;
+    top: 86%;
+    right: 42%;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.poster-img {
+    position: absolute;
+    top:-80px;
+    height: 130vh;
+    width: 90%;
+    padding: 5rem;
+    filter: brightness(50%)
+}
+
+
+/* Case ssction */
+.cases {
+    position: relative;
+    top:500px;
+
+    
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* gap: 6px; */
+    padding: 5rem;
+    z-index: 2;
+}
+
+.first-two {
+    display: flex;
+    flex-direction: row;
+    width: 105%;
+}
+
+.second-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-img{
+    width: 100%;
+    height: 100%;
+    margin-right: 5rem;
+}
+
+.second-img {
+    width: 100%;
+    height: 85%;
+}
+
+.container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-left: 2rem;
+    width: 58%;
+    height: 70vh;
+    flex-wrap: wrap;
+}
+
+.wrapp-small-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.small-icons{
+    /* flex-wrap: wrap; */
+    width: 75px;
+    height: 75px;
+    
+}
+
+.green-check-icon{
+    color: var(--clr--green-button);
+}
+
+.hustle-container {
+    background-color: white;
+    width: 68%;
+}
+.container-img{
+    width: 61%;
+}
+
+.icons-text {
+    color: var(--clr--green-button);
+}
+
+/* Section questions */
+
+.questions {
+    position: absolute;
+    display: flex;
+    height: 80vh;
+    width: 87%;
+    margin-left: 5rem;
+    bottom: -213%;
+
+    background-color: var(--clr--white-green);
+}
+
+.question-article{
+    
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.first-three {
+    
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.second-three {
+    /* display: flex; */
+    /* flex-direction: row; */
+}
