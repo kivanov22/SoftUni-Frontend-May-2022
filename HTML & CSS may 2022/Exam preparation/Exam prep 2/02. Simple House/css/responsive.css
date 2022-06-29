@@ -1,0 +1,55 @@
+
+
+@media screen and (max-width:600px) {
+    
+     .row{
+       display: unset;
+    }
+
+    .tm-section-title {
+        margin-left: 70px;
+        align-content: center;
+        margin-top: 3rem;
+    }
+
+    .tm-paging-links nav ul {
+        margin: unset;
+        padding: unset;
+        margin-top: 40px;
+        justify-content:space-evenly;
+    }
+    
+    .col-12 .text-center {
+        text-align:center;
+        /* margin: 7rem; */
+    }
+
+    .tm-paging-item  {
+        margin: 35px;
+    }
+
+    /* .tm-paging-link {
+
+    } */
+
+    .tm-gallery {
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .tm-gallery-page {
+        margin: 9rem;
+    }
+    .img-fluid {
+        max-width: unset;
+    }
+
+    .tm-description-figure .img-fluid {
+        width: 95%;
+        margin-left: 2rem;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
