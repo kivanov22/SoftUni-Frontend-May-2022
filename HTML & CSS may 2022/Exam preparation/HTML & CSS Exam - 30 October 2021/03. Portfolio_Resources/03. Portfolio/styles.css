@@ -1,0 +1,185 @@
+
+:root {
+    --clr--heading-black:#2e2e2e;
+    --clr--heading-light:#a7a7a7;
+    --clr--background-gray:#efefef;
+    --clr--dark-h1:#222222;
+}
+
+
+body {
+padding: 2rem;
+font-family: "Raleway", sans-serif;
+}
+
+/* Header */
+.header-btn {
+    position: absolute;
+    right: 80px;
+    top: 70px;
+}
+
+
+/* Common */
+.section{
+    background-color: var(--clr--background-gray);
+    padding: 5rem;
+    height: 70vh;
+    margin-bottom: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divider {
+    background-color: var(--clr--dark-h1);
+}
+
+.divider-vertical {
+    width: 1px;
+    height: 5rem;
+}
+
+.divider-horizontal {
+    width: 5rem;
+    height: 1px;
+}
+
+/* Section 1 */
+
+#intro {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.section .intro-img {
+    position: absolute;
+    bottom: 0px;
+    right: 5rem;
+    width: 45%;
+}
+
+.section .intro-div {
+   width: 45%;
+}
+
+.section .span-darker {
+    font-weight: bold;
+}
+
+.section .headings {
+    font-size: 3.5rem;
+   font-weight: 300;
+    margin-bottom: 2.5rem;
+   
+}
+
+.section .paragraphs {
+    color: var(--clr--heading-light);
+    font-style: italic;
+}
+
+
+/* About */
+
+#about .div-wide{
+    width: 50%;
+}
+
+#about .wrapper-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#about .headings {
+    margin-bottom: unset;
+    margin-left: 2.5rem;
+}
+
+#about .icons-list {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+#about .social {
+    width: 15px;
+    background-color: var(--clr--heading-light);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+/* Picture only */
+#picture {
+padding: unset;
+}
+
+#picture .poster-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Bridge section */
+
+
+
+/* Slideshow */
+
+#slideshow .img-slide {
+    position: relative;
+    width: 35%;
+    z-index: 1;
+}
+
+#slideshow .img-slide:nth-child(2){
+    z-index: 2;
+    transform: scale(1.5);
+}
+
+
+/* Section Contact */
+#contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .wrap-inputs {
+display: flex;
+flex-direction: row;
+}
+
+#contact .small-input {
+    width: 70%;
+    height: 65%;
+    margin: 10px;
+}
+
+#contact .big-area {
+    height: 20%;
+    width: 33%;
+}
+
+#contact .long-button {
+    height: 8%;
+    width: 33%;
+    color: white;
+    background-color: black;
+}
+
+#contact .contact-text{
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+}
