@@ -1,0 +1,85 @@
+
+
+:root {
+    --clr--heading-upper:#030303;
+    --clr--heading--:#cc2b31;
+    --clr--background:#f5f5f5;
+    --clr--background--articles:#ffffff;
+}
+
+/* Resolution is normal just opening it on chrome */
+
+body {
+    font-family: 'Courgette', cursive;
+    background-color: var(--clr--background);
+    margin-right: 7rem;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid var(--clr--heading--);
+}
+
+
+/* Upper heading */
+.heading-home {
+text-align: center;
+height: 6vh;
+font-size: 4rem;
+font-weight: 500;
+}
+
+.text-home {
+text-align: center;
+height: 3vh;
+margin-left: 16rem;
+color:var(--clr--heading--);
+font-size: 2rem;
+}
+
+
+.container {
+    display: flex;
+    margin: 20px auto;
+    width: 1000px;
+    justify-content: center;
+    /* background-color: var(--clr--background); */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 390px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--clr--background--articles);
+}
+
+.home-img {
+    /* margin-top: 3px; */
+    border-top: var(--clr--background);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.home-txt {
+    text-align: center;
+    height: 20vh;
+}
+
+.reading-btn {
+    font-family: 'Courgette', cursive;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2rem; */
+    margin-bottom: 1rem;
+    background-color: var(--clr--background--articles);
+}
+
+.arrow-red {
+    color: var(--clr--heading--);
+    margin-left: 3px;
+}
